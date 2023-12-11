@@ -1,7 +1,7 @@
 import { BsArrowRight } from "react-icons/bs";
-import Banner from "C:/Users/kayla/OneDrive/Documentos//Front-EndQuiosque/front-quiosque/src/assets/img/Banner.png";
-import Banner2 from "C:/Users/kayla/OneDrive/Documentos//Front-EndQuiosque/front-quiosque/src/assets/img/Banner2.png";
-import Banner3 from "C:/Users/kayla/OneDrive/Documentos//Front-EndQuiosque/front-quiosque/src/assets/img/Banner3.png";
+import Banner from "C:/Users/kayla/OneDrive/Documentos//FRONT/front-quiosque/src/assets/img/Banner.png";
+import Banner2 from "C:/Users/kayla/OneDrive/Documentos//FRONT/front-quiosque/src/assets/img/Banner2.png";
+import Banner3 from "C:/Users/kayla/OneDrive/Documentos//FRONT/front-quiosque/src/assets/img/Banner3.png";
 
 
 const Hero = () => {

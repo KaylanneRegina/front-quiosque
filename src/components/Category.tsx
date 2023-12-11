@@ -1,7 +1,7 @@
-import Cerveja from "C:/Users/kayla/OneDrive/Documentos//Front-EndQuiosque/front-quiosque/src/assets/img/skol.png";
-import Petisco from "C:/Users/kayla/OneDrive/Documentos//Front-EndQuiosque/front-quiosque/src/assets/img/carne.png";
-import Balde from "C:/Users/kayla/OneDrive/Documentos//Front-EndQuiosque/front-quiosque/src/assets/img/heineken.png";
-import Refri from "C:/Users/kayla/OneDrive/Documentos//Front-EndQuiosque/front-quiosque/src/assets/img/Refrigerentes.jpg.webp"
+import Cerveja from "C:/Users/kayla/OneDrive/Documentos//FRONT/front-quiosque/src/assets/img/skol.png";
+import Petisco from "C:/Users/kayla/OneDrive/Documentos//FRONT/front-quiosque/src/assets/img/carne.png";
+import Balde from "C:/Users/kayla/OneDrive/Documentos//FRONT/front-quiosque/src/assets/img/heineken.png";
+import Refri from "C:/Users/kayla/OneDrive/Documentos//FRONT/front-quiosque/src/assets/img/Refrigerentes.jpg.webp"
 import CategoryCard from "./CategoryCard";
 
 const data = [

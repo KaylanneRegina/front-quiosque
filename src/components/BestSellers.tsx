@@ -1,3 +1,12 @@
+import Cerveja from "C:/Users/kayla/OneDrive/Documentos//FRONT/front-quiosque/src/assets/img/skol.png";
+import ProductCard from "./ProductCard";
+
+const data = [
+    { id: 0, img: "/src/assets/img/skol.png", name: "Skol", price: "5,00"},
+    { id: 1, img: "/src/assets/img/stella.png", name: "stella", price: "7,00"},
+    { id: 2, img: "/src/assets/img/itaipava.png", name: "itaipava", price: "4,00"},
+    { id: 3, img: "/src/assets/img/carne.png", name: "carne", price: "10,00"},
+];
 
 const BestSellers = () => {
     return (
@@ -15,7 +24,22 @@ const BestSellers = () => {
                 </div>
             </div>
 
-            <div className="grid"></div>
+            <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 pt-8 gap-2">
+                <div>
+                    <img className="w-full h-full object-cover" src={Cerveja} alt="banner" />
+                </div>
+
+                {data.map((el) => (
+                    <ProductCard
+                        key={el.id}
+                        img={el.img}
+                        name={el.name}
+                        price={el.price}
+                    />
+
+                ))};
+
+            </div>
 
         </div>
     )
